@@ -104,7 +104,9 @@
 .card_img_filter-saturate {
   filter: saturate(30%);
 }
-
+.card_img_filter-contrast-hue-rotate-blur {
+  filter: contrast(200%) hue-rotate(40deg) blur(0.1rem);
+}
 .card_img_label {
   padding: 25px;
   justify-self: end;
